@@ -16,5 +16,13 @@
 #include "interrupt.h"
 
 int main(void) {
+    initTimer(1,0,4);
+    initLCD();
     
+    initKeypad();
+    
+    while(1) {
+        
+    } 
+    return(0);
 }
