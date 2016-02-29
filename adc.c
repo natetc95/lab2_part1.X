@@ -1,6 +1,5 @@
 #include <xc.h>
-#include "keypad.h"
-#include "timer.h"
+adcnclude "timer.h"
 
 void initADC(void) {
     

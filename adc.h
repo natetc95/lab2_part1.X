@@ -8,8 +8,8 @@
  * LAB 2 PART 1
  *******************************/
 
-#ifndef KEYPAD_H
-#define KEYPAD_H
+#ifndef adc_H
+#define adc_H
 
 void initADC(void);
 void initKeypad(void);
