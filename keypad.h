@@ -8,13 +8,7 @@
  * LAB 2 PART 1
  *******************************/
 
-#include <xc.h>
-#include <sys/attribs.h>
-#include "config.h"
-#include "lcd.h"
-#include "keypad.h"
-#include "interrupt.h"
+#ifndef KEYPAD_H
+#define KEYPAD_H
 
-int main(void) {
-    
-}
+#endif

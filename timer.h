@@ -8,13 +8,11 @@
  * LAB 2 PART 1
  *******************************/
 
-#include <xc.h>
-#include <sys/attribs.h>
-#include "config.h"
-#include "lcd.h"
-#include "keypad.h"
-#include "interrupt.h"
+#ifndef INITTIMER_H
+#define	INITTIMER_H
 
-int main(void) {
-    
-}
+void delayUs(unsigned short t);
+void delayMs(unsigned int delay);
+
+#endif	/* INITTIMER_H */
+
