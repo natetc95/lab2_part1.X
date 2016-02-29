@@ -17,6 +17,16 @@
 
 volatile unsigned int val = 0;
 
+/************************************
+ * Parts needed 
+ * 
+ * 5x 1k
+ * 1x 10k
+ * 1x 7k
+ * 1x 5k 
+ *  
+ ***********************************/
+
 int main(void) {
     initTimer(1,0,4);
     initLCD();
@@ -26,7 +36,7 @@ int main(void) {
     char s[32];
     
     while(1) {
-        itoa(val, s, 10);
+        itoa(1000*val, s, 10);
         printStringLCD(s);
     }
     
